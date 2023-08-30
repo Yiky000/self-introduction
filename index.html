@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>YiKyung의 자기소개</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300;400;500;600&family=Noto+Serif+KR:wght@500;900&family=Poppins:wght@200;300&display=swap');
+
+    .header{
+        position: fixed;
+        width: 100%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+          
+    }            
+    .container h4{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+    }
+    
+    .container .contents, .mybody{
+        font-family: 'IBM Plex Sans KR', sans-serif;
+    }      
+    .container .contents h3{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .container .contents strong{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+    }
+
+    .nav-space{
+        height: 48px;
+    }
+
+    #mybody{
+        position: absolute;
+        right: 10px;
+    }
+
+    .container-top{
+        width: 100%;
+        height: 100px;
+        
+    }
+
+    
+
+    #hi{
+        float: left;
+    }
+
+    #myface{
+        width: 100px;
+        border-radius: 100%;
+        clear: left;
+        margin-bottom: 10px;
+     
+    }
+    #card{clear: left;}
+    
+</style>
+
+
+</head>
+<body>
+    <div class="header">
+        <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
+            <a class="navbar-brand" href="#">Navbar</a>
+
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading1">BACKGROUND</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading2">DIRECTIVITY</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#scrollspyHeading3">TMI</a>
+              </li>
+
+
+             
+            </ul>
+          </nav>
+          
+    </div>
+
+    <div class="container">
+        <div class="nav-space"></div> <!-- Nav한테 가려짐 방지 -->
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-light p-3 rounded-2" id="myBody" tabindex="0">
+            
+            <div class="background">
+                <h4 id="scrollspyHeading1">BACKGROUND</h4>
+                
+                <div class="contents">
+                    <p id="hi">안녕하세요! 저는 이제 막 대학교를 졸업한 24살, 강이경입니다.</p>
+                    <!-- <div align="right">
+                        <img id="myface" src="img/intro-me3.jpg">
+                    </div> -->
+    
+                    <div class="row mb-2" id="card">
+                            <div class="col-md-6">
+                              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                  <strong class="d-inline-block mb-2 text-primary-emphasis">Major</strong>
+                                  <h3 class="mb-0">UX Design</h3>
+                                  <div class="mb-1 text-body-secondary">Handong Global University</div>
+                                  <p class="card-text mb-auto">저는 한동대학교에서 제품디자인과 시각디자인을 복수 전공하면서 UX분야의 프로젝트로 졸업전시회를 진행했습니다.</p>
+                                  <a href="https://www.behance.net/gallery/178807689/_" class="icon-link gap-1 icon-link-hover stretched-link">
+                                    졸업프로젝트 도록>
+                                  </a>
+                                  
+                                </div>
+                                
+                              </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                                <div class="col p-4 d-flex flex-column position-static">
+                                  <strong class="d-inline-block mb-2 text-success-emphasis">Projects</strong>
+                                  <h3 class="mb-0">UX/UI Design</h3>
+                                  <div class="mb-1 text-body-secondary">~July 2023</div>
+                                  <p class="mb-auto">다양한 프로젝트를 경험하며 제가 만든 결과물은 허상같이 느껴졌습니다. 실제로 작동이 되는 리얼 결과물을 제 손으로 만들고 싶다는 생각이 계속 들었습니다.</p>
+                                  
+                                </div>
+                                
+                              </div>
+                            </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="directivity">
+                <h4 id="scrollspyHeading2">SDIRECTIVITY</h4>
+                <div class="contents">
+                    <p>제가 개발자가 되고 싶은 이유는 제가 구상하는 서비스들을 직접 구현할 수 있는 능력을 갖게될 수 있기 때문입니다.
+                      저는 제품디자인 시각디자인을 복수전공하면서 작년에 UX디자인 분야로 졸업연구를 마쳤고, 이번 상반기에 마지막학기를 다니면서 컴공과 친구들과 협업 프로젝트를 진행했습니다. 그러면서 그동안 개발도 배워놔야하는데 라는 막연한 생각이 점차 디자이너이지만 개발자도 되어야겠다. 그리고 개발 하고 싶다라는 생각으로 확고해졌습니다.
+                      
+                      개발자가 된다면 겉으로 드러나는 디자인 요소들의 인터렉션 및 아웃핏을 직접 만들어낼 수도 있고, 
+                      데이터를 처리하는 그 안쪽의 구조를 짜는 부분에 대해서 배워서 스마트하게 구조를 잘 설계하면 사용자가 불편함 없이 사용할 수 있는 서비스를 제공할 수 있는 역량도 갖출 수 있다고 생각합니다.
+                      
+                      그래서 저는 결론적으로 올라운더 개발자가 되고 싶습니다. 
+                      직접 디자인할 수 있고 
+                      그 디자인을 실제로 구현하는 프론트엔드 작업도 할 수 있으며
+                      나아가 백엔드쪽에서 데이터를 처리하는 구조를 똑똑하게 잘 짤 수 있는 개발자가 되고 싶습니다.
+                      
+                      하지만 이게 저 혼자 모든 것을 다 하겠다는 것은 아닙니다. 제가 담당하는 포지션 외의 일들에 대해서도 깊게 이해해서 팀원들과 커뮤니케이션을 원활하게 할 수 있고, 서로 무얼 하고 있는지 정확하게 파악하고 있으며,
+                      
+                      필요시 직접 서포트할 수 있다고 생각하기에, 배우고 싶은 것입니다.
+                      
+                      또한 더욱 성장할 수 있는 역량이 제게 있다면 목표하는 바가 있는데, 이건 이래서 안 되고 저런 저래서 안 된다. 
+                      이 방식이 최선이다.
+                      일단은 급하니까 이렇게라도 구현해야한다. 는 최대한 지양하는 개발자가 되고 싶습니다. 특히 요즘 기업에서는 일단 서비스 런칭이 먼저 빨리 되는 것을 목표로 빠르게 서비스를 세상에 내놓는 추세라고 알고있습니다. 하지만 급한 상황 속에서도 큰 그림을 그리며 추후에 붙을 코드들의 영향력을 생각하면서 좀더 똑똑하고 효율적이게 구조를 잘 짤 수 있는 능력있는 개발자가 되고 싶습니다! 물론 일단 개발자 공부를 시작부터 해야하겠지만요.
+                      </p>
+
+                </div>
+            
+            </div>
+            <div class="tmi">
+                <h4 id="scrollspyHeading3">TMI</h4>
+                <div class="contents">
+                  
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          MBTI
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>INTP, INFP</strong> 둘 다 나와요! 
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          T, F 둘다 나오는 사람 특
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <img src="img/intro-mbti.jpg">
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <p> </p>
+                  <p> 하늘, 구름 사진 찍는 걸 좋아합니다.</p>
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="img/intro-sky1.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/intro-sky2.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/intro-sky3.jpg" class="d-block w-100">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="img/intro-sky4.jpg" class="d-block w-100">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
+                </div>
+            
+            </div>
+
+        </div> <!-- id="mybody"끝 회색 배경색 깔린 본문 영역 -->
+
+
+    </div> <!-- container 끝 -->
+
+    
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
